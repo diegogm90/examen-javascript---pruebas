@@ -139,7 +139,7 @@ class App {
           }
         
           buscarTareas(e){
-           
+            
             const buscarTareas = this.tareas.filter((tarea) => tarea.tarea.includes(e.key));
             this.thisprint(buscarTareas);
         
